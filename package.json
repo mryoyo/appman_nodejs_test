@@ -1,0 +1,25 @@
+{
+  "name": "appman_nodejs_problems",
+  "version": "1.0.0",
+  "description": "just for fun",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run test",
+    "test": "./node_modules/mocha/bin/mocha -- */*/*.test.js"
+  },
+  "keywords": [
+    "AppMan",
+    "JavaScript",
+    "Nodejs"
+  ],
+  "author": "mryoyo <suriya.k@appman.co.th>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "moment": "^2.20.1"
+  }
+}

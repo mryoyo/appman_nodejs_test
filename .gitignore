@@ -1,0 +1,4 @@
+node_modules
+materials
+gen-data-usage-log.js
+*.resolution.js
