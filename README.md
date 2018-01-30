@@ -6,7 +6,7 @@ Find all possible array of 3 unique `indices` of a given _n_ array that sum of a
 
 ```javascript
 > const { threeSum } = require('./three-sum')
-> threeSum([0, 1, 2, 3, 4, 5])
+> threeSum([0, 1, 2, 3, 4, 5], 5)
 [ [0, 1, 4], [0, 2, 3] ]
 >
 ```
