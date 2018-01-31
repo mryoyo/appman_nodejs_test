@@ -13,7 +13,7 @@ Find all possible array of 3 unique `indices` of a given _n_ array that sum of a
 
 ### Problem 02
 
-We need to build an inverted pyramid from bricks. To complete n-floor, we have to use exactly `n` brick(s). Please find max floor can be built from given `input` bricks
+We need to build an inverted pyramid from bricks. To complete the n-th floor, we have to use exactly `n` brick(s). Please find max floor can be built from given `input` bricks
 
 ```javascript
 > const { maxFloor } = require('./max-floor')
@@ -40,7 +40,7 @@ Please find min of step(s) to transform given number to 1.
 
 ### Problem 04
 
-Please write asynchronous function that takes `n` array of Cryptocurrency symbols and returns their details. Must use data fetched from this [API server](`https://coinbin.org`).
+Please write asynchronous function that takes `n` array of Cryptocurrency symbols and returns their details. Must use data fetched from this [API server](https://coinbin.org).
 
 ```javascript
 > const { crytoDetails } = require('./crypto-details')
