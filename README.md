@@ -15,7 +15,7 @@ Find all possible array of 3 unique `indices` of a given _n_ array that sum of a
 
 ### Problem 02
 
-We need to build an inverted pyramid from bricks. To complete the n-th floor, we have to use exactly `n` brick(s). Please find max floor can be built from given `input` bricks
+We need to build an inverted 2-dimensional pyramid from bricks. To complete the n-th floor, we have to use exactly `n` brick(s). Please find max floor can be built from given `input` bricks
 
 ```javascript
 > const { maxFloor } = require('./max-floor')
@@ -28,8 +28,8 @@ We need to build an inverted pyramid from bricks. To complete the n-th floor, we
 
 We need to transform any positive number to 1 step by step with 2 rules as below:
 
-1. if number is even, must be transformed to (number / 2)
-2. if number is odd, must be transformed to either (number + 1) or (number - 1)
+1.  if number is even, must be transformed to (number / 2)
+2.  if number is odd, must be transformed to either (number + 1) or (number - 1)
 
 Please find min of step(s) to transform given number to 1.
 
@@ -61,7 +61,7 @@ Please write asynchronous function that takes `n` array of Cryptocurrency symbol
 
 ### Problem 05
 
-Please write asynchronous function that fetchs temperature data from [OpenWeatherMap](https://openweathermap.org/api) and returns Bangkok's maxTemp and minTemp (in celsius scale) for **next 7 days**.
+Please write asynchronous function that fetchs temperature data from [OpenWeatherMap](https://openweathermap.org/api) and returns Bangkok's maxTemp and minTemp (in celsius scale) for **next 7 days**. (You can find API key in `openweather.key.txt`)
 
 ```javascript
 > const { bangkokForecast } = require('./bangkok-forecast')
