@@ -1,6 +1,6 @@
 {
   "name": "appman_nodejs_problems",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "just for fun",
   "main": "index.js",
   "scripts": {

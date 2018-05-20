@@ -2,7 +2,7 @@
 
 ### Problem 01
 
-Find all possible array of 3 unique `indices` of a given _n_ array that sum of all pointed numbers must be equal to a specific target.
+Find all possible array of 3 unique `indices` of a given _`n`_ array that sum of all pointed numbers must be equal to a specific target.
 
 ```javascript
 > const { threeSum } = require('./three-sum')
@@ -40,28 +40,9 @@ Please find min of step(s) to transform given number to 1.
 >
 ```
 
-### Problem 04
-
-Please write asynchronous function that takes `n` array of Cryptocurrency symbols and returns their details. Must use data fetched from this [API server](https://coinbin.org).
-
-```javascript
-> const { crytoDetails } = require('./crypto-details')
-> cryptoDetails(['eth', 'xrp']).then(console.log)
-[ { btc: 0.10539134,
-    name: 'Ethereum',
-    rank: 2,
-    ticker: 'eth',
-    usd: 1194.4 },
-  { btc: 0.00011824,
-    name: 'Ripple',
-    rank: 3,
-    ticker: 'xrp',
-    usd: 1.34 } ]
-```
-
 ### Problem 05
 
-Please write asynchronous function that fetchs temperature data from [OpenWeatherMap](https://openweathermap.org/api) and returns Bangkok's maxTemp and minTemp (in celsius scale) for **next 7 days**. (You can find API key in `openweather.key.txt`)
+Please write asynchronous function (and its test) that fetchs temperature data from [OpenWeatherMap](https://openweathermap.org/api) and returns Bangkok's maxTemp and minTemp (in celsius scale) for **next 7 days**. (You can find API key in `openweather.key.txt`)
 
 ```javascript
 > const { bangkokForecast } = require('./bangkok-forecast')
@@ -77,7 +58,7 @@ Please write asynchronous function that fetchs temperature data from [OpenWeathe
 
 ### Problem 06
 
-Please write asynchronous function that read a provided `data-usage.log` and generate summary report including `username`, `total usage`, `average daily` for each user.
+Please write asynchronous function (and its test) that read a provided `data-usage.log` and generate summary report including `username`, `total usage`, `average daily` for each user.
 
 ```javascript
 > const { dataUsage } = require('./data-usage')
